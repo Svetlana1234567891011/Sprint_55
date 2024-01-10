@@ -8,7 +8,7 @@ from locators import Locators
 
 class Test:
     def test_registration(self, driver):
-        name = 'Masha1'
+        name = 'Masha'
         email = faker.email()
         password = 'sota310311'
         driver.find_element(*Locators.PRIVATE_AREA).click()
