@@ -1,6 +1,4 @@
-from selenium.webdriver.chrome import webdriver
 
-driver = webdriver.Chrome()
 from selenium.webdriver.support import expected_conditions as EC
 from faker import Faker
 from selenium.webdriver.support.wait import WebDriverWait
