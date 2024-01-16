@@ -1,8 +1,7 @@
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
-from constants import login
-from locators import Locators
-
+from Sprint_5.constants import login
+from ..locators import Locators
 
 
 class Test:
@@ -31,4 +30,3 @@ class Test:
         login(driver)
         wait = WebDriverWait(driver, 10)
         assert wait.until(EC.visibility_of_element_located(Locators.ORDER_BUTTON))
-

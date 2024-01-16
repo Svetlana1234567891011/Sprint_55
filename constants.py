@@ -2,7 +2,7 @@ from selenium.webdriver.chrome import webdriver
 import time
 
 from selenium.webdriver.common.by import By
-from locators import Locators
+
 
 from selenium.webdriver.support.wait import WebDriverWait
 # driver = webdriver.Chrome()
@@ -13,7 +13,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
 
-from locators import Locators
+from .locators import Locators
 
 
 class Constants:
