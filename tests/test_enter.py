@@ -1,6 +1,6 @@
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
-from Sprint_5.constants import login
+from ..constants import login
 from ..locators import Locators
 
 
